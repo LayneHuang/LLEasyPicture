@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">mod-album</string>
+    <string name="info">Info</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates the basic use of Camera2 API. Check the source code to see how
+            you can display camera preview and take pictures.
+
+
+        ]]>
+    </string>
+    <string name="camera_flash_auto">自动</string>
+    <string name="camera_flash_on">打开</string>
+    <string name="camera_flash_off">关闭</string>
+    <string name="camera_finish">完成</string>
+    <string name="camera_send">发送</string>
+    <string name="album_sends">发送(%1$d)</string>
+    <string name="album_max_sends">你最多只能选择(%1$d)张照片</string>
+    <string name="camera_retake">重拍</string>
+    <string name="camera_title">相机胶卷</string>
+    <string name="cancel">取消</string>
+    <string name="camera_cancel">取消</string>
+    <string name="camera_use">使用照片</string>
+    <string name="original_photo">原图大小</string>
+    <string name="confirm">确认</string>
+    <string name="okay">好的</string>
+    <string name="error_network_2">网络好像不给力哦</string>
+    <string name="hint_i_know">知道</string>
+    <string name="i_know">我知道了</string>
+    <string name="permission_camera">请允许访问你的摄像头，以正常使用拍照功能。</string>
+</resources>

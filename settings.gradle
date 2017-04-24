@@ -1,0 +1,1 @@
+include ':app', ':mod-photo-manager'

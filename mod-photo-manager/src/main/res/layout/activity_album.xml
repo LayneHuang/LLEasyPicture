@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:background="@color/colorActionBarBg">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            style="@style/action_bar_cancel" />
+
+        <TextView
+            style="@style/action_bar_title"
+            android:text="@string/camera_title"
+            android:textColor="@color/colorActionOptAble" />
+
+        <TextView
+            android:id="@+id/tv_done"
+            style="@style/action_bar_done"
+            android:text="@string/camera_send"
+            android:textColor="@color/colorActionOptDisable"
+            android:visibility="invisible" />
+
+        <View style="@style/ActionBarLine" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_photos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
